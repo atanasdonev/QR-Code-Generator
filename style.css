@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+.header {
+	display: flex;
+	background-color: #ff5c33;
+	color: white;
+	font-weight: bold;
+	height: 3.5rem;
+	align-items: center;
+}
+
+.header-text {
+	margin-left: 8rem;
+	font-size: large;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	flex-direction: column;
+}
+
+.main div {
+	max-width: 50vw;
+	text-align: center;
+}
+
+.main p {
+	font-size: medium;
+	font-weight: 600;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.container form {
+	min-width: 60%;
+	gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+input,
+select {
+	width: 60%;
+	padding: 0.25rem;
+	border: solid 1px gray;
+	border-radius: 3px;
+}
+
+.submit-button {
+	width: 60%;
+	padding: 0.25rem;
+	background-color: rgb(75, 85, 99);
+	color: white;
+	font-weight: 500;
+	border: none;
+	border-radius: 3px;
+}
+
+.submit-button:hover {
+	background-color: black;
+}
+
+#qrcode {
+	margin-bottom: 1rem;
+}
+
+.save-button {
+	background-color: #ff5c33;
+	padding: 0.25rem 1rem;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	border-radius: 3px;
+}
+
+.save-button:hover {
+	background-color: #e62e00;
+	color: white;
+}
