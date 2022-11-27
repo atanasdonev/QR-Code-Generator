@@ -1,1 +1,1 @@
-VanillaJS web application for generating QR Codes for URLs.
+VanillaJS web application for generating QR Codes of URLs.
